@@ -31,11 +31,10 @@ The primary goal is to analyze how these lifestyle factors affect student perfor
 
 ### 1. Problem Definition
 
-**Research Questions:**
-- How do various lifestyle habits such as study hours, sleep patterns, screen time, diet quality, and mental health influence student performance?
-- Can these factors be used to accurately predict academic performance?
-- What distinct types of students emerge based on their habits and lifestyle, and how do these groups differ in academic performance?
-
+**Research Question:**  
+- *How do various lifestyle habits such as study hours, sleep patterns, screen time, diet quality, and mental health influence student, and can these factors be used to accurately predict academic performance?*
+- *Does a specific combination of healthy sleep, low screen time, and high study efficiency lead to significantly better academic outcomes than any factor alone?*
+- *What distinct types of students emerge based on their habits and lifestyle, and how do these groups differ in academic performance?*
 ---
 
 ### 2. Data Understanding and Preprocessing
@@ -45,7 +44,7 @@ The primary goal is to analyze how these lifestyle factors affect student perfor
 - **Handling Missing Data**: Handled using median and mode imputation  
 - **Categorical Encoding**: Label encoding, binary mapping, and ordinal encoding  
 - **Feature Scaling**: Standardization with `StandardScaler`  
-- **Feature Engineering**: Created new features like `study_efficiency` and `sleep_quality_score`
+- **Feature Engineering**: Created new features like `study_efficiency`,`total_well-being` and `total_screen_time`
 
 ---
 
@@ -55,7 +54,7 @@ The primary goal is to analyze how these lifestyle factors affect student perfor
 - **Scatter Plots**: Comparing habits to exam scores  
 - **Box Plots**: To compare score distributions across categories  
 - **Correlation Heatmap**: To reveal multicollinearity and relationships  
-- Key Insight: Study time and sleep quality positively correlate with scores, while excessive screen time negatively correlates.
+- Key Insight: Study time , total well-being, and sleep quality positively correlate with scores, while excessive screen time negatively correlates.
 
 ---
 
